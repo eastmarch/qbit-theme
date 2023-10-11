@@ -261,6 +261,11 @@ QTreeView {
 
 QTreeView::item {
   padding: 2px;
+  background-color: transparent;
+}
+
+QTreeView::item, QTreeView::item:hover, QTreeView::item:selected, QTreeView::item:active {
+  padding: 2px;
 }
 
 QTreeView::item:hover, QTreeView::item:selected {
