@@ -34,6 +34,7 @@ QTabBar::tab:selected {
 /* QMenuBar */
 QMenuBar::item {
   padding: 4px 8px;
+  background-color: transparent;
 }
 
 QMenuBar::item:selected {
